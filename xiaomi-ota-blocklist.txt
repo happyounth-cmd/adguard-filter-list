@@ -1,0 +1,31 @@
+! Title: Xiaomi HyperOS OTA Blocklist
+! Description: Block Xiaomi MIUI / HyperOS automatic system OTA update, remote config push, gray scale upgrade
+! Homepage: https://github.com/adguard-filter-list/仓库名
+! Syntax: AdGuard Standard Filter
+
+# 小米澎湃OS/MIUI OTA系统更新核心域名（必拦）
+||update.miui.com^
+||ota.miui.com^
+||bigota.d.miui.com^
+||bigota.c.miui.com^
+||bigota.g.miui.com^
+||cdn.miui.com^
+||rom.miui.com^
+||miuiofflineupdate.miui.com^
+||update.intl.miui.com^
+
+# 系统推送、灰度OTA、远程配置推送（静默推更新通道）
+||ad.xiaomi.com^
+||data.miui.com^
+||log.miui.com^
+||trace.miui.com^
+||remote.miui.com^
+||config.miui.com^
+||cloudupdate.miui.com^
+||upgrade.miui.com^
+
+# 小米账号联动更新、国际版更新通道
+||api.account.xiaomi.com^
+||update.mi.com^
+||ota.mi.com^
+||global.ota.miui.com^
